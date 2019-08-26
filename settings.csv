@@ -1,0 +1,2 @@
+Horizontal Resolution|Vertical Resolution|Background Colour|Diffuse Colour|Representation|View Size|Int. Focal Point|Position|View Up|View Angle|Output Path|Input File
+10|3|[1,1,1]|[0,0,1]|"Surface"|[500, 600]|(0, 0, 16.5)|(105.5, 0, 16.5)|(0, 0, 1)|25|"F:/360test/"|"F:/360test/cap.stl"
