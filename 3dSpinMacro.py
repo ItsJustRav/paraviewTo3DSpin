@@ -30,6 +30,8 @@ cam.SetPosition(105.5, 0, 16.5)
 cam.SetViewUp(0, 0, 1)
 cam.ViewAngle = 25
 cam.OrthogonalizeViewUp()
+cam.Roll(-aplha)
+cam.Azimuth(-theta)
 Render()
 
 def filer(name):
@@ -46,6 +48,6 @@ for i in range (elev-1):
     for x in range (res-1):
         cam.Azimuth(theta)
         Render()
-        SaveScreenshot("F:/{}/image{}.png".format(i, x))
+        SaveScreenshot("{}{}/image{}.png".format(save_path, i, x))
 
 
